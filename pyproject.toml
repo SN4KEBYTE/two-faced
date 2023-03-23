@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "two-faced"
+version = "0.1.0"
+description = ""
+authors = ["Timur Kasimov <t.kasimov@aventica.ru>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = ">=1.20,<1.25"
+torch = "^1.13.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
